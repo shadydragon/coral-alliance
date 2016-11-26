@@ -1,0 +1,6 @@
+# Cpanel/hosting
+.well-known
+
+# Sublime text and local dev
+sftp-config.json
+*.sublime-*
