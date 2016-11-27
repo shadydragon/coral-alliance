@@ -10,3 +10,21 @@ function ca_script_init() {
 }
 add_action( 'wp_enqueue_scripts', 'ca_script_init' );
 
+/**
+ * Create custom image sizes
+ */
+function ca_theme_sizes() {
+    add_image_size( 'hero-background', 1400, 960, true );
+    add_image_size( 'cta-background', 1400, 800, true );
+}
+add_action( 'after_setup_theme', 'ca_theme_sizes' );
+
+/**
+ * Simplify background creation, optimise the images and prevent code duplication
+ */
+function createBackground($image_id, $size = '') {
+	if ($image_id) {
+		return " style=\"background-image: url('" . wp_get_attachment_image_src($image_id, $size)[0] . "');\"";
+	}
+	return '';
+}
