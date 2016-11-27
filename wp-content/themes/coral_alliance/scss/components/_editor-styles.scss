@@ -8,8 +8,13 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .cta-button {
 	&, button[type="submit"], input[type="submit"] {
 		display: inline-block;
+		max-width: 100%;
 		background-color: #e549a5;
+		border-top: none;
+		border-left: none;
+		border-right: none;
 		border-bottom: solid 5px #d03e94;
+		cursor: pointer;
 		border-radius: 3px;
 		overflow: hidden;
 		padding: 10px 78px 9px;

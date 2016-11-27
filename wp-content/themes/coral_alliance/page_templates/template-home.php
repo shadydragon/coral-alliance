@@ -42,7 +42,7 @@ get_header(); ?>
 				</div>
 			</section>
 
-			<section class="form">
+			<section class="petition" id="petition">
 				<div class="container">
 
 					<h2>BE a hero,<br>add your name</h2>
