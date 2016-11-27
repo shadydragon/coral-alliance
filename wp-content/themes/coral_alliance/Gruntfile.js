@@ -43,7 +43,7 @@ module.exports = grunt => {
 			},
 			dist: {
 				files: {
-					'../wp-content/themes/coral_alliance/css/site.min.css': 'scss/base.scss'
+					'./css/site.min.css': 'scss/base.scss'
 				}
 			}
 		},
@@ -54,7 +54,7 @@ module.exports = grunt => {
 			},
 			dist: {
 				files: {
-					'../wp-content/themes/coral_alliance/css/site.min.css': '../wp-content/themes/coral_alliance/css/site.min.css'
+					'./css/site.min.css': './css/site.min.css'
 				}
 			}
 		},
@@ -71,14 +71,14 @@ module.exports = grunt => {
                     ]
 				},
 				files: {
-				   "../wp-content/themes/coral_alliance/js/site.min.js": ["js/site.js"]
+				   "./js/site.min.js": ["js/site.js"]
 				}
 			}
 		},
 		uglify: {
 			dist: {
 				files: {
-					'../wp-content/themes/coral_alliance/js/site.min.js': ['../wp-content/themes/coral_alliance/js/site.min.js']
+					'./js/site.min.js': ['./js/site.min.js']
 				}
 			}
 		}
