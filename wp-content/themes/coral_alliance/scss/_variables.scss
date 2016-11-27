@@ -5,8 +5,8 @@
 // Fonts
 // -------------------
 
-$headingFont: 'Trebuchet MS', sans-serif;
-$paragraphFont: 'Helvetica', sans-serif;
+$headingFont: 'Muli', sans-serif;
+$paragraphFont: 'Muli', sans-serif;
 
 
 // Colours
@@ -29,7 +29,7 @@ $socialYoutube: #CD201F;
 
 $breakpoints: (
 	'mobile': (max-width: 736px),
-	'tablet': (max-width: 1024px),
+	'tablet': (max-width: 1199px),
 	'desktop': (min-width: 1200px),
 );
 

@@ -7,25 +7,25 @@ button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-    padding: 0.625em 1.25em;
-    margin: 0 0 0.625em;
-    font-family: inherit;
-    font-size: 1rem;
-    border: none;
-    outline: none;
-    line-height: 100%;
-    cursor: pointer;
-    text-decoration: none;
-    appearance: none;
-    display: inline-block;
+	padding: 0.625em 1.25em;
+	margin: 0 0 0.625em;
+	font-family: inherit;
+	font-size: 1rem;
+	border: none;
+	outline: none;
+	line-height: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	appearance: none;
+	display: inline-block;
 
-    @include button-style($baseColor, $textColor);
+	@include button-style($baseColor, $textColor);
 
-    &.huge{
-        font-size: 1.25rem;
-        font-weight: 600;
-        padding: 0.625em 2em;
-    }
+	&.huge{
+		font-size: 1.25rem;
+		font-weight: 600;
+		padding: 0.625em 2em;
+	}
 }
 
 button.primary,
@@ -64,3 +64,4 @@ input.button-twitter {
 		cursor: default;
 	}
 }
+

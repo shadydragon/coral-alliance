@@ -11,7 +11,4 @@
 		<?php wp_head(); ?>
 
 	</head>
-	<body>
-		<header>
-			header
-		</header>
+	<body <?php body_class();?>>

@@ -8,9 +8,14 @@
 @import 'layout.scss';
 @import 'type.scss';
 
-@import 'components/forms.scss';
-@import 'components/buttons.scss';
-@import 'components/menus.scss';
+//@import 'components/forms.scss';
+//@import 'components/buttons.scss';
+//@import 'components/menus.scss';
+@import 'components/editor-styles';
+@import 'components/footer';
+
+@import 'pages/home';
+
 @import 'fonts.scss';
 @import 'tooltips.scss';
 

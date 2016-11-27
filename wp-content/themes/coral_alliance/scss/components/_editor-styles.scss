@@ -1,0 +1,30 @@
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+.cta-button {
+	&, button[type="submit"], input[type="submit"] {
+		display: inline-block;
+		max-width: 100%;
+		background-color: #e549a5;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: solid 5px #d03e94;
+		cursor: pointer;
+		border-radius: 3px;
+		overflow: hidden;
+		padding: 10px 78px 9px;
+		font-weight: bold;
+		font-size: 41px;
+		line-height: normal;
+		color: #fff;
+		text-transform: uppercase;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,125 @@
+.page-template.home {
+	.hero, .cta {
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+	}
+
+	.hero {
+		background-image: url('../img/bg-hero.png');
+		padding: 0 0 30px;
+		font-size: 26px;
+		line-height: 1.154em;
+		.logo {
+			text-align: center;
+			padding: 48px 0;
+		}
+	}
+
+	.cta {
+		background-image: url('../img/bg-cta.png');
+		padding: 100px 0 30px;
+		text-align: center;
+		h2 {
+			text-transform: uppercase;
+			font-size: 23px;
+			font-weight:900;
+			margin: 0 0 29px;
+		}
+		p {
+			font-weight: 100;
+			font-size: 52px;
+		}
+	}
+
+	.extra-content {
+		padding: 70px 0;
+		@include clearfix;
+		.box {
+			color: #066073;
+			h1, h2, h3, h4 {
+				font-size: 31px;
+				font-weight: 100;
+				margin: 0 0 11px;
+			}
+			p {
+				line-height: 1.375em;
+				margin-top: 0;
+			}
+		}
+		.box-third {@include columns(4);}
+		.box-half {@include columns(6);}
+		.box-full {@include columns(12);}
+	}
+
+	.petition {
+		padding: 80px 0;
+
+		h2 {
+			margin: 0;
+			font-size: 77px;
+			line-height: 83px;
+			text-align: center;
+			color: #e549a5;
+			text-transform: uppercase;
+		}
+
+		.wpcf7 {
+			max-width: 640px;
+			margin: 0 auto;
+			.wpcf7-form-control-wrap {
+				display: block;
+				width: 100%;
+				input {
+					width: 100%;
+					border: solid 1px #dad9d8;
+					border-radius: 2px;
+					background-color: #f1f1f1;
+					margin-bottom: 14px;
+					padding: 20px 27px 19px;
+					box-shadow: none;
+					outline: none;
+					font-size: 27px;
+					&::-webkit-input-placeholder { color: #dad9d8; }
+					&:-moz-placeholder { color: #dad9d8; }
+					&::-moz-placeholder { color: #dad9d8; }
+					&:-ms-input-placeholder {color: #dad9d8;}
+				}
+
+
+			}
+			input[type="submit"] {
+				margin-top: 21px;
+				display: block;
+				width: 100%;
+			}
+		}
+
+		.past-entries {
+			@include clearfix;
+			padding: 60px 0;
+			.item {
+				@include respond-to('desktop') {
+					@include columns(2);
+					&:nth-child(3n+1) {clear: left} // just in case
+					&:nth-child(3n+1) {clear: none;}
+				}
+				@include respond-to('tablet') {
+					@include columns(4);
+					margin-bottom: 20px;
+					&:nth-child(3n+1) {clear: left}
+				}
+				color: #066073;
+				font-size: 13px;
+				line-height: 1.081em;
+			}
+			.time {margin-bottom: 7px;}
+			.content {
+				font-size: 18px;
+				line-height: 1.222em;
+				font-weight: bold;
+			}
+		}
+	}
+}
