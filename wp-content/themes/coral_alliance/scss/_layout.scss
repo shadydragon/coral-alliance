@@ -2,13 +2,15 @@
 // Site Layout
 // --------------------------------------------------
 
-* {
-	box-sizing: border-box;
-}
+* { box-sizing: border-box; }
+
+img {max-width: 100%;}
 
 .container {
 	@include container();
+	padding: 0 15px;
 }
+
 
 /* UNBUSED BUT KEEPING AS EXAMPLE
 

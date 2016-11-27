@@ -15,28 +15,41 @@ get_header(); ?>
 		?>
 
 			<section class="hero"<?php echo $hero_bg; ?>>
-				<?php the_field('hero_section_content'); ?>
+				<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Coral Alliance: Protecting our reef, together"></div>
+				<div class="container">
+					<?php the_field('hero_section_content'); ?>
+				</div>
 			</section>
 
 			<section class="cta"<?php echo $cta_bg; ?>>
-				<h2><?php the_field('cta_title'); ?></h2>
-				<?php the_field('cta_content'); ?>
+				<div class="container">
+					<h2><?php the_field('cta_title'); ?></h2>
+					<?php the_field('cta_content'); ?>
+				</div>
 			</section>
 
 			<section class="extra-content">
+				<div class="container">
+					<?php if (have_rows('extra_content')):
+						while (have_rows('extra_content')): the_row(); ?>
 
-				<?php if (have_rows('extra_content')):
-					while (have_rows('extra_content')): the_row(); ?>
-					<?php the_sub_field('width'); ?>
-					<?php the_sub_field('content'); ?>
+							<div class="box box-<?php the_sub_field('width'); ?>">
+								<?php the_sub_field('content'); ?>
+							</div>
 
-				<?php endwhile;
-				endif; ?>
-
+						<?php endwhile;
+					endif; ?>
+				</div>
 			</section>
 
 			<section class="form">
+				<div class="container">
 
+					<h2>BE a hero,<br>add your name</h2>
+					<?php echo do_shortcode('[contact-form-7 id="52" title="Petition"]'); ?>
+					<div class="past-entries" id="past-entries"><div class="group">&nbsp;</div></div>
+
+				</div>
 			</section>
 
 		<?php endwhile;
