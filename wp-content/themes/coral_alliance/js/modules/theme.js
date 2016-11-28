@@ -62,8 +62,7 @@
 						container.append('<div class="group hidden"></div>').find('.group').hide();
 						// Add the new entries
 						$.each(data, function(key, entry) {
-
-							container.find('.group').append('<div class="item"><div class="time">' + timeSince(new Date(entry.Submitted)) + ' ago</div><div class="content">' + entry['full-name'].split(' ')[0] + ' ' + compliments[count] + '</div></div>');
+							container.find('.group').append('<div class="item"><div class="time">' + moment(entry.Submitted, "YYYY-MM-DD HH:mm:ss Z").fromNow() + '</div><div class="content">' + entry['full-name'].split(' ')[0] + ' ' + compliments[count] + '</div></div>');
 							if (count >= compliments.length - 1) {
 								count = 0;
 							} else {
@@ -77,39 +76,6 @@
 				});
 
 			}
-
-			// Figure out how long ago something happened http://stackoverflow.com/questions/3177836/how-to-format-time-since-xxx-e-g-4-minutes-ago-similar-to-stack-exchange-site
-			function timeSince(date) {
-				var delta = Math.round((+new Date - date) / 1000);
-
-				var minute = 60,
-				hour = minute * 60,
-				day = hour * 24,
-				week = day * 7;
-
-				var response;
-
-				if (delta < 30) {
-					response = 'a few seconds';
-				} else if (delta < minute) {
-					response = delta + ' seconds';
-				} else if (delta < 2 * minute) {
-					response = 'a minute'
-				} else if (delta < hour) {
-					response = Math.floor(delta / minute) + ' minutes';
-				} else if (Math.floor(delta / hour) == 1) {
-					response = '1 hour'
-				} else if (delta < day) {
-					response = Math.floor(delta / hour) + ' hours';
-				} else if (delta < day * 2) {
-					response = 'yesterday';
-				}
-
-				return response;
-			}
-
-
-
 
 		}
 	};
