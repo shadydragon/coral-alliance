@@ -25,6 +25,7 @@ get_header(); ?>
 				<div class="container">
 					<h2><?php the_field('cta_title'); ?></h2>
 					<?php the_field('cta_content'); ?>
+					<a href="#petition" class="go-to-petition">&nbsp;</a>
 				</div>
 			</section>
 
