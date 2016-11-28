@@ -66,3 +66,4 @@ function createBackground($image_id, $size = '') {
 	}
 	return '';
 }
+
