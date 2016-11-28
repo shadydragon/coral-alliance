@@ -453,13 +453,13 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (42,  14, '_additional_settings', NULL),
 (43,  14, '_locale',  'en_US'),
 (44,  23, '_edit_last', '1'),
-(45,  23, '_edit_lock', '1480309722:1'),
+(45,  23, '_edit_lock', '1480309928:1'),
 (46,  23, '_wp_page_template',  'page_templates/template-home.php'),
 (47,  25, '_edit_last', '1'),
 (48,  25, '_edit_lock', '1480309546:1'),
 (49,  23, 'hero_section_background',  ''),
 (50,  23, '_hero_section_background', 'field_583a6920993fe'),
-(51,  23, 'hero_section_content', '&nbsp;\r\n<p style=\"text-align: center;\"><img class=\"alignnone size-full wp-image-40\" src=\"http://coral-alliance.dev/wp-content/uploads/2016/11/main-title.png\" alt=\"main-title\" width=\"927\" height=\"149\" /></p>\r\n<p style=\"text-align: center;\">2015 is our year to show the world that we will\r\nstand up for this great natural wonder</p>\r\n<p style=\"text-align: center;\"><a class=\"cta-button\" href=\"#petition\">Sign the petition</a></p>'),
+(51,  23, 'hero_section_content', '<img class=\"alignnone size-full wp-image-40 aligncenter\" src=\"http://coral-alliance.dev/wp-content/uploads/2016/11/main-title.png\" alt=\"main-title\" width=\"927\" height=\"149\" />\r\n<p style=\"text-align: center;\">2015 is our year to show the world that we will\r\nstand up for this great natural wonder</p>\r\n<p style=\"text-align: center;\"><a class=\"cta-button\" href=\"#petition\">Sign the petition</a></p>'),
 (52,  23, '_hero_section_content',  'field_583a69e14f284'),
 (53,  23, 'cta_background', ''),
 (54,  23, '_cta_background',  'field_583a6b1684b5b'),
@@ -877,6 +877,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (471, 53, '_extra_content_5_width', 'field_583a6de0911cb'),
 (472, 53, 'extra_content_5_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
 (473, 53, '_extra_content_5_content', 'field_583a6ec5911cc'),
+(510, 55, 'hero_section_background',  ''),
 (474, 54, 'hero_section_background',  ''),
 (475, 54, '_hero_section_background', 'field_583a6920993fe'),
 (476, 54, 'hero_section_content', '&nbsp;\r\n<p style=\"text-align: center;\"><img class=\"alignnone size-full wp-image-40\" src=\"http://coral-alliance.dev/wp-content/uploads/2016/11/main-title.png\" alt=\"main-title\" width=\"927\" height=\"149\" /></p>\r\n<p style=\"text-align: center;\">2015 is our year to show the world that we will\r\nstand up for this great natural wonder</p>\r\n<p style=\"text-align: center;\"><a class=\"cta-button\" href=\"#petition\">Sign the petition</a></p>'),
@@ -912,7 +913,42 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (506, 54, 'extra_content_5_width',  'full'),
 (507, 54, '_extra_content_5_width', 'field_583a6de0911cb'),
 (508, 54, 'extra_content_5_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
-(509, 54, '_extra_content_5_content', 'field_583a6ec5911cc');
+(509, 54, '_extra_content_5_content', 'field_583a6ec5911cc'),
+(511, 55, '_hero_section_background', 'field_583a6920993fe'),
+(512, 55, 'hero_section_content', '<img class=\"alignnone size-full wp-image-40 aligncenter\" src=\"http://coral-alliance.dev/wp-content/uploads/2016/11/main-title.png\" alt=\"main-title\" width=\"927\" height=\"149\" />\r\n<p style=\"text-align: center;\">2015 is our year to show the world that we will\r\nstand up for this great natural wonder</p>\r\n<p style=\"text-align: center;\"><a class=\"cta-button\" href=\"#petition\">Sign the petition</a></p>'),
+(513, 55, '_hero_section_content',  'field_583a69e14f284'),
+(514, 55, 'cta_background', ''),
+(515, 55, '_cta_background',  'field_583a6b1684b5b'),
+(516, 55, 'cta_title',  'We need to act now:'),
+(517, 55, '_cta_title', 'field_583a6b55513de'),
+(518, 55, 'cta_content',  'For 200 million years the reef has survived as an intricate ecosystem. Today, we\'re on the brink of losing it forever.'),
+(519, 55, '_cta_content', 'field_583a6be9513df'),
+(520, 55, 'extra_content',  '6'),
+(521, 55, '_extra_content', 'field_583a6da7911ca'),
+(522, 55, 'extra_content_0_width',  'third'),
+(523, 55, '_extra_content_0_width', 'field_583a6de0911cb'),
+(524, 55, 'extra_content_0_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
+(525, 55, '_extra_content_0_content', 'field_583a6ec5911cc'),
+(526, 55, 'extra_content_1_width',  'third'),
+(527, 55, '_extra_content_1_width', 'field_583a6de0911cb'),
+(528, 55, 'extra_content_1_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
+(529, 55, '_extra_content_1_content', 'field_583a6ec5911cc'),
+(530, 55, 'extra_content_2_width',  'third'),
+(531, 55, '_extra_content_2_width', 'field_583a6de0911cb'),
+(532, 55, 'extra_content_2_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
+(533, 55, '_extra_content_2_content', 'field_583a6ec5911cc'),
+(534, 55, 'extra_content_3_width',  'half'),
+(535, 55, '_extra_content_3_width', 'field_583a6de0911cb'),
+(536, 55, 'extra_content_3_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
+(537, 55, '_extra_content_3_content', 'field_583a6ec5911cc'),
+(538, 55, 'extra_content_4_width',  'half'),
+(539, 55, '_extra_content_4_width', 'field_583a6de0911cb'),
+(540, 55, 'extra_content_4_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
+(541, 55, '_extra_content_4_content', 'field_583a6ec5911cc'),
+(542, 55, 'extra_content_5_width',  'full'),
+(543, 55, '_extra_content_5_width', 'field_583a6de0911cb'),
+(544, 55, 'extra_content_5_content',  '<h2>Subheading</h2>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'),
+(545, 55, '_extra_content_5_content', 'field_583a6ec5911cc');
 
 DROP TABLE IF EXISTS `wp_posts`;
 CREATE TABLE `wp_posts` (
@@ -960,7 +996,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (15,  1,  '2016-11-26 05:26:27',  '2016-11-26 05:26:27',  '[contact-form-7 id=\"14\" title=\"Contact form 1\"]',  'test form',  '', 'inherit',  'closed', 'closed', '', '11-revision-v1', '', '', '2016-11-26 05:26:27',  '2016-11-26 05:26:27',  '', 11, 'http://coral-alliance.dev/11-revision-v1/',  0,  'revision', '', 0),
 (12,  1,  '2016-11-26 05:02:52',  '2016-11-26 05:02:52',  '[contact-form][contact-field label=\'Name\' type=\'name\' required=\'1\'/][contact-field label=\'Email\' type=\'email\' required=\'1\'/][contact-field label=\'postcode\' type=\'text\' required=\'1\'/][/contact-form]',  'test form',  '', 'inherit',  'closed', 'closed', '', '11-revision-v1', '', '', '2016-11-26 05:02:52',  '2016-11-26 05:02:52',  '', 11, 'http://coral-alliance.dev/11-revision-v1/',  0,  'revision', '', 0),
 (14,  1,  '2016-11-26 05:24:29',  '2016-11-26 05:24:29',  '<label> Your Name (required)\n    [text* your-name] </label>\n\n<label> Your Email (required)\n    [email* your-email] </label>\n\n<label> Subject\n    [text your-subject] </label>\n\n<label> Your Message\n    [textarea your-message] </label>\n\n[submit \"Send\"]\nCoral Alliance \"[your-subject]\"\n[your-name] <wordpress@coral-alliance.dev>\nFrom: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on Coral Alliance (http://coral-alliance.dev)\nnicholas_powell@msn.com\nReply-To: [your-email]\n\n0\n0\n\nCoral Alliance \"[your-subject]\"\nCoral Alliance <wordpress@coral-alliance.dev>\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on Coral Alliance (http://coral-alliance.dev)\n[your-email]\nReply-To: nicholas_powell@msn.com\n\n0\n0\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nThe field is required.\nThe field is too long.\nThe field is too short.',  'Contact form 1', '', 'publish',  'closed', 'closed', '', 'contact-form-1', '', '', '2016-11-26 05:24:29',  '2016-11-26 05:24:29',  '', 0,  'http://coral-alliance.dev/?post_type=wpcf7_contact_form&p=14', 0,  'wpcf7_contact_form', '', 0),
-(23,  1,  '2016-11-27 01:54:55',  '2016-11-27 01:54:55',  'This is the home page template', 'Home Page',  '', 'publish',  'closed', 'closed', '', 'home-page',  '', '', '2016-11-28 05:08:41',  '2016-11-28 05:08:41',  '', 0,  'http://coral-alliance.dev/?page_id=23',  0,  'page', '', 0),
+(23,  1,  '2016-11-27 01:54:55',  '2016-11-27 01:54:55',  'This is the home page template', 'Home Page',  '', 'publish',  'closed', 'closed', '', 'home-page',  '', '', '2016-11-28 05:12:07',  '2016-11-28 05:12:07',  '', 0,  'http://coral-alliance.dev/?page_id=23',  0,  'page', '', 0),
 (24,  1,  '2016-11-27 01:54:55',  '2016-11-27 01:54:55',  'This is the home page template', 'Home Page',  '', 'inherit',  'closed', 'closed', '', '23-revision-v1', '', '', '2016-11-27 01:54:55',  '2016-11-27 01:54:55',  '', 23, 'http://coral-alliance.dev/23-revision-v1/',  0,  'revision', '', 0),
 (25,  1,  '2016-11-27 05:05:59',  '2016-11-27 05:05:59',  'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"page_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:32:\"page_templates/template-home.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:3:{i:0;s:11:\"the_content\";i:1;s:7:\"excerpt\";i:2;s:14:\"featured_image\";}s:11:\"description\";s:0:\"\";}',  'Home Page',  'home-page',  'publish',  'closed', 'closed', '', 'group_583a691af3cf1',  '', '', '2016-11-27 06:52:01',  '2016-11-27 06:52:01',  '', 0,  'http://coral-alliance.dev/?post_type=acf-field-group&#038;p=25', 0,  'acf-field-group',  '', 0),
 (26,  1,  '2016-11-27 05:05:59',  '2016-11-27 05:05:59',  'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:93:\"Replaces the default image. Image should be at least 1400x960px. Large images will be cropped\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:2:\"id\";s:12:\"preview_size\";s:9:\"thumbnail\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'Hero Section Background',  'hero_section_background',  'publish',  'closed', 'closed', '', 'field_583a6920993fe',  '', '', '2016-11-27 06:32:42',  '2016-11-27 06:32:42',  '', 25, 'http://coral-alliance.dev/?post_type=acf-field&#038;p=26', 0,  'acf-field',  '', 0),
@@ -990,7 +1026,8 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (51,  1,  '2016-11-27 09:38:28',  '2016-11-27 09:38:28',  'This is the home page template', 'Home Page',  '', 'inherit',  'closed', 'closed', '', '23-revision-v1', '', '', '2016-11-27 09:38:28',  '2016-11-27 09:38:28',  '', 23, 'http://coral-alliance.dev/23-revision-v1/',  0,  'revision', '', 0),
 (52,  1,  '2016-11-27 09:52:46',  '2016-11-27 09:52:46',  '<label for=\"full-name\" class=\"screen-reader\">Full Name</label>[text* full-name id:full-name placeholder \"Full Name\"]<label for=\"email\" class=\"screen-reader\">Email Address</label>[email* email id:email placeholder \"Email Address\"]<label for=\"postcode\" class=\"screen-reader\">Postcode</label>[text* postcode id:postcode placeholder \"Postcode\"][submit class:cta-button \"Sign the petition\"]\nCorel Alliance Petition submission\nCoral Alliance Server <server@coral-alliance.dev>\nHi there,\r\n[full-name] just signed your petition!\r\n\r\nHere are their details:\r\nName: [full-name]\r\nEmail: [email]\r\nPostcode: [postcode]\nnicholas_powell@msn.com\n\n\n\n1\n\nCoral Alliance \"[your-subject]\"\nCoral Alliance <wordpress@coral-alliance.dev>\nMessage Body:\r\n[your-message]\r\n\r\n--\r\nThis e-mail was sent from a contact form on Coral Alliance (http://coral-alliance.dev)\n[your-email]\nReply-To: nicholas_powell@msn.com\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nThe field is required.\nThe field is too long.\nThe field is too short.\nThe date format is incorrect.\nThe date is before the earliest one allowed.\nThe date is after the latest one allowed.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe file is too big.\nThere was an error uploading the file.\nThe number format is invalid.\nThe number is smaller than the minimum allowed.\nThe number is larger than the maximum allowed.\nThe answer to the quiz is incorrect.\nYour entered code is incorrect.\nThe e-mail address entered is invalid.\nThe URL is invalid.\nThe telephone number is invalid.\non_sent_ok: Theme.refreshEntries()', 'Petition', '', 'publish',  'closed', 'closed', '', 'petition', '', '', '2016-11-28 02:48:59',  '2016-11-28 02:48:59',  '', 0,  'http://coral-alliance.dev/?post_type=wpcf7_contact_form&#038;p=52',  0,  'wpcf7_contact_form', '', 0),
 (53,  1,  '2016-11-27 13:30:31',  '2016-11-27 13:30:31',  'This is the home page template', 'Home Page',  '', 'inherit',  'closed', 'closed', '', '23-revision-v1', '', '', '2016-11-27 13:30:31',  '2016-11-27 13:30:31',  '', 23, 'http://coral-alliance.dev/23-revision-v1/',  0,  'revision', '', 0),
-(54,  1,  '2016-11-28 05:08:41',  '2016-11-28 05:08:41',  'This is the home page template', 'Home Page',  '', 'inherit',  'closed', 'closed', '', '23-revision-v1', '', '', '2016-11-28 05:08:41',  '2016-11-28 05:08:41',  '', 23, 'http://coral-alliance.dev/23-revision-v1/',  0,  'revision', '', 0);
+(54,  1,  '2016-11-28 05:08:41',  '2016-11-28 05:08:41',  'This is the home page template', 'Home Page',  '', 'inherit',  'closed', 'closed', '', '23-revision-v1', '', '', '2016-11-28 05:08:41',  '2016-11-28 05:08:41',  '', 23, 'http://coral-alliance.dev/23-revision-v1/',  0,  'revision', '', 0),
+(55,  1,  '2016-11-28 05:12:07',  '2016-11-28 05:12:07',  'This is the home page template', 'Home Page',  '', 'inherit',  'closed', 'closed', '', '23-revision-v1', '', '', '2016-11-28 05:12:07',  '2016-11-28 05:12:07',  '', 23, 'http://coral-alliance.dev/23-revision-v1/',  0,  'revision', '', 0);
 
 DROP TABLE IF EXISTS `wp_termmeta`;
 CREATE TABLE `wp_termmeta` (
@@ -1097,4 +1134,4 @@ CREATE TABLE `wp_users` (
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'Admin',  '$P$Bm70gOxzDWI1Ndsc5bLw.FI9smQ1Yp.', 'admin',  'nicholas_powell@msn.com',  '', '2016-11-26 02:20:51',  '', 0,  'Admin');
 
--- 2016-11-28 05:09:50
+-- 2016-11-28 05:12:17
