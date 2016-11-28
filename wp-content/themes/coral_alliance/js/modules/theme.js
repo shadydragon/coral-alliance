@@ -44,7 +44,11 @@
 			});
 		},
 		resizeFunctions: function() {
-			$('.page-template-template-home').find('.hero, .cta').css('min-height', $(window).innerHeight());
+			if ($(window).innerWidth() >= 768){
+				$('.page-template-template-home').find('.hero, .cta').css('min-height', $(window).innerHeight());
+			} else {
+				$('.page-template-template-home').find('.hero, .cta').css('min-height', '');
+			}
 		},
 		refreshEntries: function() {
 			// Update the entries

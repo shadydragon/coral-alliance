@@ -7,7 +7,9 @@ footer {
 	@include respond-to('tablet') {
 		min-height: 200px;
 	}
-	@include respond-to('mobile') {
-		min-height: 100px;
+	.logo {
+		@include columns(12);
+		padding-top: 70px;
+		img {width: 200px;}
 	}
 }

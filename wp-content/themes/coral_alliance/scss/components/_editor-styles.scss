@@ -10,9 +10,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 		display: inline-block;
 		max-width: 100%;
 		background-color: #e549a5;
-		border-top: none;
-		border-left: none;
-		border-right: none;
+		border: none; // remove the other borders
 		border-bottom: solid 5px #d03e94;
 		cursor: pointer;
 		border-radius: 3px;
@@ -23,6 +21,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 		line-height: normal;
 		color: #fff;
 		text-transform: uppercase;
+		white-space: normal;
 		&:hover {
 			text-decoration: none;
 		}

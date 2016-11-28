@@ -91,14 +91,13 @@
 			}
 			input[type="submit"] {
 				margin-top: 21px;
-				display: block;
 				width: 100%;
 			}
 		}
 
 		.past-entries {
-			@include clearfix;
 			padding: 60px 0;
+			.group { @include clearfix; }
 			.item {
 				@include respond-to('desktop') {
 					@include columns(2);
