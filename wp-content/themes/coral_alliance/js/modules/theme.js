@@ -25,9 +25,22 @@
 
 			// run the resize function when the window is resized
 			$(window).resize(this.resizeFunctions);
+
+			// Add smooth scrolling to the anchor tags
+			$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
 		},
 		resizeFunctions: function() {
-			console.log('resized');
 			$('.page-template-template-home').find('.hero, .cta').css('min-height', $(window).innerHeight());
 		},
 		pastEntries: function() {
